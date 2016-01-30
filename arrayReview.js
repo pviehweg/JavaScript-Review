@@ -2,9 +2,13 @@ var threeItems = [1,2,3];
 //create a function named 'last' that returns the last item from 'threeItems'
 //alert the result of your function
 
-  //code here
+var last = function(arry) {
+	var uhhuh = arry.pop();
+	return uhhuh;
+}
 
-
+var showme = last(threeItems);
+alert(showme);
 
 /* NEXT PROBLEM - NEXT PROBLEM - NEXT PROBLEM */
 
@@ -13,7 +17,13 @@ var threeItems = [1,2,3];
 //Loop through evenArray removing all values that aren't even 
 var evenArray = [1,2,3,6,22,98,45,23,22,12];
 
-  //code here
+var evenOnly = fucntion(arry2) {
+	for (var i = 0, i < arry2.length, i++)
+		if (!arry2[i] % 2 == 0) {
+			
+		}
+
+}
 
 
 /* NEXT PROBLEM - NEXT PROBLEM - NEXT PROBLEM */
