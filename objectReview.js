@@ -124,16 +124,16 @@ voweler(davowels);
 
 
 
-A different way to do it: With less code. 
-function voweler(str) {
-   var vowels = 'aeiouAEIOU', 
-   vowelObj = {a: 0, e: 0, i: 0, o: 0, u: 0};
-   for (var i in str) { 
-    if (vowels.includes(str[i])) { 
-      var cur = str[i].toLowerCase(); 
-      vowelObj[cur] += 1}
-}
-return vowelObj;
-}
+// A different way to do it: With less code. 
+// function voweler(str) {
+//    var vowels = 'aeiouAEIOU', 
+//    vowelObj = {a: 0, e: 0, i: 0, o: 0, u: 0};
+//    for (var i in str) { 
+//     if (vowels.includes(str[i])) { 
+//       var cur = str[i].toLowerCase(); 
+//       vowelObj[cur] += 1}
+// }
+// return vowelObj;
+// }
 
-voweler('yOur mom goes to college');
+// voweler('yOur mom goes to college');
